@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 body {
-  background-color: rgb(150, 247, 4);
+  background: linear-gradient(90deg, rgb(238, 255, 5), orange);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,9 +18,11 @@ body {
   align-items: center;
   position: absolute;
   justify-content: center;
+  background: linear-gradient(90deg, rgb(250, 250, 23), orange);
   border-radius: 50%;
-  border: solid 2vw #7a9395;
+  border: 5px solid rgb(255, 191, 16);
 }
+
 .circle {
   width: 3vw;
   height: 3vw;
@@ -31,7 +33,7 @@ body {
   border-radius: 50%;
   background-color: red;
   z-index: 21;
-  border: solid 1vw rgb(65, 61, 61);
+  border: solid 1vw rgb(5, 5, 5);
 }
 .hour {
   width: 2vw;
@@ -72,8 +74,8 @@ body {
 .analog .number {
   --rotation: 0;
   position: absolute;
-  width: 36vw;
-  height: 36vw;
+  width: 38vw;
+  height: 38vw;
   text-align: center;
   color: rgb(65, 60, 60);
   font-size: 3vw;
